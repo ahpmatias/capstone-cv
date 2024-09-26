@@ -19,3 +19,10 @@
 #experience h1 {
 max-height:150px;
 }
+#education h1 {
+    max-height:150px;
+    }
+
+.card {
+    background-color: #F8FCFE;
+}
