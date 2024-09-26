@@ -5,36 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anderson's Personal Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./css/style.css" rel="stylesheet">
 </head>
-<style>
-    #title {
-        background-image: url(./assets/images/title-personal-website.jpg);
-        background-size: 2000px 600px;
-    }
-
-    #title .text-body-emphasis {
-        color: white !important;
-        padding-top: 200px;
-        padding-bottom: 200px;
-        font-size: 5rem;
-    }
-
-    .grid-container {
-      display: grid;
-      gap:15px;
-      grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    }
-
-    .grid-container h1 {
-      grid-column: 1 / span 2;
-    }
-
-
-</style>
 <body>
     <section id="title">
         <div class="px-4 text-center">
-            <h1 class="display-5 fw-bold text-body-emphasis">Anderson's Website</h1>
+            <h1 class="display-5 fw-bold text-body-emphasis">Anderson's CV</h1>
             <div class="col-lg-6 mx-auto">
               
               <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -46,7 +22,7 @@
         <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
               <div class="col-10 col-sm-8 col-lg-6">
-                <img src="./assets/images/Anderson Matias-4_smaller.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" loading="lazy">
+                <img src="./assets/images/Anderson Matias-4_smaller.jpg" class="d-block mx-lg-auto img-fluid" alt="Profile picture" width="500" loading="lazy">
               </div>
               <div class="col-lg-6">
                 <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About me</h1><br>
@@ -60,27 +36,115 @@
     </section>
     <hr>
     <section id="experience">
-        <div class="container grid-container px-4 py-5">
-          <!-- <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Professional Summary</h1> -->
+        <h1 class="display-5 fw-bold text-body-emphasis  container grid-container px-5 py-5">Professional Summary</h1>
+        <div class="container grid-container px-4 py-5">          
           <div class="card">
               <div class="card-body">
                 <h4 class="job-title">Product Owner</h4>
                 <h5 class="company">Uniserv</h5>
-                <p class="duration">Jun-23 to present</p><br>
+                <p class="duration">Jun-23 to present</p>
                 <p class="description">As PO, I had the opportunity to initiate important strategic initiatives such as:
-                  <br>- A complete modernization of a monolithic application through containerization.
-                  <br>- The development of a completely new UI/UX.
-                  <br>- The development of a horizontally scalable matching component to improve performance.</p>
+                  <ul>
+                    <li>A complete modernization of a monolithic application through containerization.</li>
+                    <li>The development of a completely new UI/UX.</li>
+                    <li>The development of a horizontally scalable matching component to improve performance.</li>
+                  <ul>
+                </p>
               </div>
             </div>
             <div class="card">
               <div class="card-body">
                 <h4 class="job-title">IT Project Manager / Consultant</h4>
                 <h5 class="company">IBM</h5>
-                <p class="duration">Sep-21 to May-23</p><br>
+                <p class="duration">Sep-21 to May-23</p>
                 <p class="description">Led projects of different sizes and complexity as part of IBM Client Innovation Center Germany (IBM Consulting Organization) Project Management & Agile Practice. Supported CIC on Employee satisfaction survey data analysis and visualization.</p>
               </div>
-            </div>            
+            </div> 
+            <div class="card">
+              <div class="card-body">
+                <h4 class="job-title">Engineering Senior Manager</h4>
+                <h5 class="company">Moove</h5>
+                <p class="duration">Mar-19 to Aug-21</p>
+                <p class="description">
+                  <ul>
+                    <li>Led the Exterior Product Development Engineering department (which includes Exterior ornamentation, sealing, insulation, fixing brackets, glazing, wipers, mirrors and closures sub-systems) for the Mover, an electric minibus with autonomous driving capabilities.</li>                  
+                    <li>Hired and managed 5 direct reports, while being responsible for department budget, hiring and people development.</li>
+                    <li>As part of the management team, collaborated on process improvements to increase the product development efficiency cross-functionally.</li>
+                  </ul>  
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h4 class="job-title">Project Manager</h4>
+                <h5 class="company">Huf (via Hays)</h5>
+                <p class="duration">Aug-17 to Mar-19</p>
+                <p class="description">Worked on behalf of Huf Group:
+                  <ul>
+                    <li>Managing project teams with up to 40 team members, of Vehicle Outer Door Handles projects for Major OEM’s, which included Mechanical parts, Hardware and Software development.</li>
+                    <li>Responsible for Exterior Solutions Business Unit Serial Production Change Management Coordination Worldwide.</li>
+                </ul>
+                </p>
+              </div>
+            </div>     
+            <div class="card">
+              <div class="card-body">
+                <h4 class="job-title">Specialist BIW Engineer</h4>
+                <h5 class="company">Ford (via RLE)</h5>
+                <p class="duration">Nov-15 to Jul-17</p>
+                <p class="description">Worked on behalf of Ford to develop and lead the launch of the all-new Ford Fiesta Underbody, including regulatory, design compliance and support to non-technical matters.</p>
+              </div>
+            </div>    
+            <div class="card">
+              <div class="card-body">
+                <h4 class="job-title">Project Engineer</h4>
+                <h5 class="company">Ford (via Bertrandt)</h5>
+                <p class="duration">Mar-15 to Feb-15</p>
+                <p class="description">Worked on behalf of Ford:
+                  <ul>
+                    <li>On the development and launch of the new Ford C-Max Bumper Fascia & Grilles.</li> 
+                    <li>In the pre-production build phases of Ford Escape and Lincoln MKC Underbody on-site.</li> 
+                    <li>Providing Agency in-house consulting on Ford Change Management processes.</li>
+                  </ul>
+                </p>  
+              </div>
+            </div>   
+            <div class="card">
+              <div class="card-body">
+                <h4 class="job-title">Product Development Engineer</h4>
+                <h5 class="company">Ford</h5>
+                <p class="duration">Nov-13 to Feb-15</p>
+                <p class="description">Deliver the Underbody development for the All-new Ka, liaising with Finance, Purchasing, Manufacturing, Logistics, Program Management, and suppliers.</p>
+              </div>
+            </div>  
+            <div class="card">
+              <div class="card-body">
+                <h4 class="job-title">Six Sigma Black Belt</h4>
+                <h5 class="company">Ford</h5>
+                <p class="duration">Apr-13 to Feb-15</p>
+                <p class="description">
+                  <ul>
+                    <li>Mentor and coach Six Sigma within the product development organization as a certified Black Belt</li> 
+                    <li>Lead complex product and process improvement projects (both organizational and manufacturing processes) using statistics and data analysis.</li> 
+                    <li>Give Six Sigma Green Belt training</li>
+                    <li>Support verified Green Belts within the Body Structure, Closures and Interior organization on their projects.</li>
+                  </ul>
+                </p>  
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h4 class="job-title">Quality Continuous Improvement Leader</h4>
+                <h5 class="company">Ford</h5>
+                <p class="duration">Sep-11 to Nov-13</p>
+                <p class="description">
+                  <ul>
+                    <li>Lead several project teams to deliver Body Exterior (Latches, Mechanisms, Glazing, Mirrors, Wipers, Sheet Metal, Dynamic Sealing, Lighting and Exterior Trim & Ornamentation) quality metrics targets of South America portfolio, through data analysis and the application of Six Sigma and G8D.</li> 
+                    <li>Coordinate and prioritize efforts among product development, manufacturing and supplier quality assurance to improve parts failure rates, warranty spend and customer satisfaction.</li> 
+                  </ul>
+                </p>  
+            </div>   
+          </div>  
         </div>
     </section>
 </body>

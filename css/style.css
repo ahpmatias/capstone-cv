@@ -1,0 +1,21 @@
+#title {
+    background-image: url(../assets/images/title-personal-website.jpg);
+    background-size: 2000px 600px;
+}
+
+#title .text-body-emphasis {
+    color: white !important;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: 5rem;
+}
+
+.grid-container {
+  display: grid;
+  gap:15px;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+#experience h1 {
+max-height:150px;
+}
